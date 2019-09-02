@@ -80,7 +80,7 @@ void usagi::NuklearSystem::setup()
         config.range = RANGES;
         auto sans = nk_font_atlas_add_from_file(
             &mAtlas,
-            "Data/fonts/SourceHanSansCN-Normal.ttf", 32, &config);
+            "data/fonts/SourceHanSansCN-Normal.ttf", 32, &config);
         int w, h;
         const auto image = nk_font_atlas_bake(
             &mAtlas, &w, &h, NK_FONT_ATLAS_ALPHA8);
